@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+
+    <test verbose="2" preserve-order="true" name="Automation suite for chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="testCases.TC_01_commonsearch"/>
+            <class name="testCases.TC_02_earphone"/>
+
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Automation suite for firefox">
+        <parameter name="browser" value="firefox" />
+        <classes>
+
+            <class name="testCases.TC_03_mobile"/>
+        </classes>
+    </test>
+
+</suite>
