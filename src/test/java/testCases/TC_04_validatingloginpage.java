@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import pageObjects.datadrivenpoc;
 import testbase.baseclassDatadriven;
 
-public class TC_04_datadriven extends baseclassDatadriven {
+public class TC_04_validatingloginpage extends baseclassDatadriven {
     @Test
     public void datadriventesting() throws InterruptedException {
         datadrivenpoc ddp=new datadrivenpoc(driver);
@@ -14,5 +14,7 @@ public class TC_04_datadriven extends baseclassDatadriven {
         ddp.enter_pwd(get_pwd("password"));
         ddp.click_loginbutton();
         Thread.sleep(5000);
+        ddp.valaidate_page();
+
     }
 }
