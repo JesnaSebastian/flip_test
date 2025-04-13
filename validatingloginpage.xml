@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="datadriven testsuite">
         <parameter name="browser" value="chrome" />
         <classes>
-            <class name="testCases.TC_04_datadriven">
+            <class name="testCases.TC_04_validatingloginpage">
                 <methods>
                     <include name="datadriventesting"/>
                 </methods>
