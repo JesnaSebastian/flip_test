@@ -1,6 +1,5 @@
 package apitestcases;
 
-import com.google.gson.JsonObject;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -13,7 +12,7 @@ import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 
-public class API_TC_01 extends faker_utility {
+public class API_Addnewcontact extends faker_utility {
     protected String token;
 
     @Test(priority = 1)
