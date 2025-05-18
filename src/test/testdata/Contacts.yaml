@@ -1,0 +1,33 @@
+json_AddContact_Post: >
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthdate": "1970-01-01",
+    "email": "jdoe@fake.com",
+    "phone": "8005555555",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Anytown",
+    "stateProvince": "KS",
+    "postalCode": "12345",
+    "country": "USA"
+  }
+
+json_AddContact_Put: >
+  {
+      "firstName": "Amy",
+      "lastName": "Miller",
+      "birthdate": "1992-02-02",
+      "email": "amiller@fake.com",
+      "phone": "8005554242",
+      "street1": "13 School St.",
+      "street2": "Apt. 5",
+      "city": "Washington",
+      "stateProvince": "QC",
+      "postalCode": "A1A1A1",
+      "country": "Canada"
+  }
+json_UpdateContact_update: >
+  {
+      "firstName": "Anna"
+  }
