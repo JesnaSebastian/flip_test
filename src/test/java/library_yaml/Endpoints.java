@@ -1,4 +1,4 @@
-package library;
+package library_yaml;
 
 public class Endpoints {
 

@@ -1,4 +1,4 @@
-package library;
+package library_yaml;
 
 import com.github.javafaker.Faker;
 import com.jayway.jsonpath.Configuration;
